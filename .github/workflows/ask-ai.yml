@@ -18,7 +18,8 @@ jobs:
       - name: AI Inference
         id: ai-response
         uses: actions/ai-inference@v3
-        with:          
+        with:      
+          model: claude-sonnet-5
           prompt: |
             Give me a programming joke.
         env:
