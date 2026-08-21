@@ -19,7 +19,7 @@ jobs:
         id: ai-response
         uses: actions/ai-inference@v3
         with:
-          model: gpt-4.1
+          model: claude-haiku-4.5
           prompt: |
             Give me a programming joke.
         env:
