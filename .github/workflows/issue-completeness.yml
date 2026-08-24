@@ -18,7 +18,7 @@ jobs:
         
       - name: Analyze issue with AI
         id: ai-response
-        uses: actions/ai-inference@vs
+        uses: actions/ai-inference@v3
         with:
           model: claude-sonnet-5
           token: ${{ secrets.GITHUB_TOKEN }}
